@@ -730,7 +730,7 @@ export class JRC {
         "en": "Returns fill color of this object as a Color object.",
     })
 
-    static fsGetFillColorCommentInt = () => lm({
+    static fsGetFillColorAsIntComment = () => lm({
         "de": "Gibt die Füllfarbe dieses Objekts als integer-Wert zurück.",
         "en": "Returns fill color of this object as int value.",
     })
@@ -1892,7 +1892,7 @@ export class JRC {
     })
 
     static spriteGetTileImageComment = () => lm({
-        "de": "Nachdem das Sprite mittels der Methode 'makeTiling' zum TileSprite gemacht wurde, kann wirken die Methoden move, scale und rotate immer auf den ganzen gekachelten Bereich. Will man das verfielfachte Bild ändern, so bekommt man über diese Methode das Sprite-Objekt, das diesem Bild entspricht. Ruft man für dieses Objekt die Methoden move, rotate oder scale auf, so wirken sie auf jede der einzelnen Kacheln.",
+        "de": "Nachdem das Sprite mittels der Methode 'makeTiling' zum TileSprite gemacht wurde, kann wirken die Methoden move, scale und rotate immer auf den ganzen gekachelten Bereich. Will man das vervielfachte Bild ändern, so bekommt man über diese Methode das Sprite-Objekt, das diesem Bild entspricht. Ruft man für dieses Objekt die Methoden move, rotate oder scale auf, so wirken sie auf jede der einzelnen Kacheln.",
         "en": "After sprite is converted to tilesprite via method 'makeTiling' you can modify the tiles with the TileImage object returned by this method.",
     })
 
